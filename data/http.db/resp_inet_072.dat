@@ -1,0 +1,184 @@
+{
+  "login" : {
+    "statusCode" : "SUCCESS",
+    "loginMessage" : "SAML authentication",
+    "lastLoginTimestamp" : "2017-08-28",
+    "sessionToken" : "8640d6d5-ab99-4a95-8796-f1f64f331751",
+    "userName" : "loadrunner-000@g6hospitality.com",
+    "displayName" : "T. User-000",
+    "assignments" : [ {
+      "propertyId" : "MS|3080",
+      "roleId" : 4,
+      "startDate" : "2016-01-26",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3080|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3081",
+      "roleId" : 4,
+      "startDate" : "2015-09-21",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3081|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3085",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3085|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3131",
+      "roleId" : 4,
+      "startDate" : "2015-09-21",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3131|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3201",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3201|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3202",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3202|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3203",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3203|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3204",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3204|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3205",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3205|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3206",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3206|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3207",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3207|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3208",
+      "roleId" : 4,
+      "startDate" : "2016-10-25",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3208|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3209",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3209|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3210",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3210|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3211",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3211|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3212",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3212|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3213",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3213|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3214",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3214|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3215",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3215|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3216",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3216|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    }, {
+      "propertyId" : "MS|3217",
+      "roleId" : 4,
+      "startDate" : "2016-06-24",
+      "endDate" : null,
+      "hasEdit" : false,
+      "id" : "MS|3217|loadrunner-000@g6hospitality.com",
+      "userId" : "loadrunner-000@g6hospitality.com"
+    } ],
+    "applications" : [ "GROW_PRICING", "GROW_REVENUE" ],
+    "revenueProperties" : [ "MS|3207", "MS|3206", "MS|3081", "MS|3209", "MS|3080", "MS|3208", "MS|3211", "MS|3210", "MS|3213", "MS|3212", "MS|3215", "MS|3214", "MS|3217", "MS|3216", "MS|3201", "MS|3203", "MS|3202", "MS|3205", "MS|3204" ],
+    "rmAdmin" : false,
+    "propertyAdmin" : false,
+    "properties" : [ "MS|3207", "MS|3206", "MS|3081", "MS|3209", "MS|3080", "MS|3208", "MS|3211", "MS|3210", "MS|3085", "MS|3213", "MS|3212", "MS|3215", "MS|3214", "MS|3217", "MS|3216", "MS|3131", "MS|3201", "MS|3203", "MS|3202", "MS|3205", "MS|3204" ]
+  }
+}

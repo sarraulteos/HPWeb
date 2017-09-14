@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14.html
+URL1=https://g6pricing-stg.g6hospitality.com/rest/login/8640d6d5-ab99-4a95-8796-f1f64f331751
+Total=2
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+ContentType=image/gif
+SnapshotXmlFile=snapshot_14.xml
+FileName2=t14_collect.gif
+URL2=https://www.google-analytics.com/collect?v=1&_v=j60&a=1619982251&t=pageview&_s=3&dl=https%3A%2F%2Fg6pricing-stg.g6hospitality.com%2F&dr=https%3A%2F%2Fg6hospitality.oktapreview.com%2Fapp%2Fg6hospitality_g6crstest_1%2Fexk4cl14tqvMDWWs30h7%2Fsso%2Fsaml&dp=%2Fsession%2Flogout&ul=en-us&de=utf-8&dt=%2Fsession%2Flogout&sd=24-bit&sr=1920x1080&vp=1920x934&je=1&fl=26.0%20r0&_u=KEBAAEQAI~&jid=&gjid=&cid=715868653.1503935723&tid=UA-60934510-1&_gid=1471364405.1503935723&z=1038394732
+[ProtocolInfo]
+ProtocolId=QTWeb

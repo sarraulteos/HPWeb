@@ -1,0 +1,1261 @@
+16a4
+
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+<!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - Start -->
+
+<!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - End -->
+
+
+
+
+
+
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="description" content="133"><link rel="shortcut icon" href="/favicont29.ico" type="image/x-icon">
+
+	<title>Webex Enterprise Site</title>
+    <base href="https://hpesw.webex.com/mw3200/mywebex/jsp/pmr/pmrlobby.jsp">
+    <script language=javascript src="https://hpesw.webex.com/svc3200/svccomponents/html/js/futurama_en_US.js?ver=289015379"></script>
+    <link rel="stylesheet" href="https&#58;&#47;&#47;hpesw.webex.com&#47;svc3200&#47;svccomponents&#47;html&#47;css&#47;futurama.css&#63;ver&#61;1926485183" type="text/css"><link rel="stylesheet" href="https&#58;&#47;&#47;hpesw.webex.com&#47;brand_dswd&#47;1042282&#47;site_hpesw&#47;brand&#47;link.css&#63;rnd&#61;0.9161542356521565" type="text/css">
+    
+
+
+
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQUDUldSGwUCVFFUDgQP"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent
+3e8
+)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceS
+5b4
+tate"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.
+1d74
+nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,
+b68
+n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Da
+1f40
+te).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1044.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script><script language="javascript">
+function AtTrim(s)
+{
+    var r1, r2, s1, s2, s3;
+
+    r1 = new RegExp("^ *");
+    r2 = new RegExp(" *$");
+
+    s1 = ""+s+"";
+    s2 = s1.replace(r1, "");
+    s3 = s2.replace(r2, "");
+
+    r1 = null;
+    r2 = null;
+
+    return(s3);
+}   
+function checkSecurityPassword(form,password,checkFlag,userName,firstName,lastName) {
+    var errorMessage="Password not allowed.";
+    var error="";
+    if(checkFlag==0){
+        error=CheckPassword(password,form);
+        if(error!=""){
+        errorMessage=errorMessage+"\n"+"A password must contain the following:"+"\n\n";
+        }
+        if (typeof(form.enDynamicPassword)=="object" && (form.enDynamicPassword.value=="true")){
+            if(PasswordFilterForSiteUrl(userName,password)){
+                error=error+"\n"+"The host name, username and the site name are not permitted."+"\n";
+            }else if(PasswordFilterForSiteUrl(form.siteurl,password)){
+                error=error+"\n"+"The host name, username and the site name are not permitted."+"\n";
+            }else if(PasswordFilterHostName(password,firstName,lastName)){
+                error=error+"\n"+"The host name, username and the site name are not permitted."+"\n";
+            }
+        }
+    }else if(checkFlag==1){
+        error=CheckPassword(password,form);
+        if(error!=""){
+        errorMessage=errorMessage+"\n"+"A password must contain the following:"+"\n\n";
+        }
+    }else if(checkFlag==2){
+        error=CheckPassword(password,form);
+        if(error!=""){
+        errorMessage=errorMessage+"\n"+"A password must contain the following:"+"\n\n";
+        }
+    }
+    if(error!=""){
+       error=errorMessage+error;
+    }
+    return error;
+}
+
+
+
+
+
+
+function CheckPassword(o,form)
+{
+var checkErrorMessage="";
+var MinLength=form.passwordMinimumLength.value;
+var nAlpha=form.passwordMinimumAlpha.value;
+var nNumberic=form.passwordMinimumNumeric.value;
+var nSpec=form.passwordMinimumSpecial.value;
+var bMix=0;
+if(form.passwordRequireMixedCase.value=="true"){
+var bMix=1;
+}
+var nSpecCount=nSpec;
+var nAlphaCount=nAlpha;
+var nNumbericCount=nNumberic;
+var p = AtTrim(o.value);
+if(p.length< MinLength)
+{
+checkErrorMessage="-"+"At least \"+MinLength+\" characters"+"\n";
+}
+for(var i=0;i<p.length;i++)
+{
+c=p.charAt(i);
+if(c<='9'&&c>='0') nNumberic--;
+else if(c<='Z'&&c>='A') {nAlpha--; bMix*=2;}
+else if(c<='z'&&c>='a') {nAlpha--;bMix*=3;}
+else nSpec--;
+}
+var err="";
+if(nAlpha>0){
+    if(nAlphaCount==1){
+        checkErrorMessage=checkErrorMessage+"-"+"At least \"+nAlphaCount+\" letter \(a, b, c...\)"+"\n";
+    }else{
+        checkErrorMessage=checkErrorMessage+"-"+"At least \"+nAlphaCount+\" letters \(a, b, c...\)"+"\n";
+    }
+}
+if(nNumberic>0){
+  if(nNumbericCount==1){
+        checkErrorMessage=checkErrorMessage+"-"+"At least \"+nNumbericCount+\" number \(1, 2, 3...\)"+"\n";
+    }else{
+        checkErrorMessage=checkErrorMessage+"-"+"At least \"+nNumbericCount+\" numbers \(1, 2, 3...\)"+"\n";
+    }
+}
+if(nSpec>0){
+  if(nSpecCount==1){
+    checkErrorMessage=checkErrorMessage+"-"+"At least \"+nSpecCount+\" special character \($, @, %...\)"+"\n";
+  }else{
+    checkErrorMessage=checkErrorMessage+"-"+"At least \"+nSpecCount+\" special characters \($, @, %...\)"+"\n";
+  }
+}
+if(bMix%2>0||bMix%3>0){
+checkErrorMessage=checkErrorMessage+"-"+"At least 1 mixed case \(A, a, B, b...\)"+"\n";
+}
+checkErrorMessage = checkErrorMessage.replace('"+MinLength+"', MinLength);
+checkErrorMessage = checkErrorMessage.replace('"+nAlphaCount+"', nAlphaCount);
+checkErrorMessage = checkErrorMessage.replace('"+nNumbericCount+"', nNumbericCount);
+checkErrorMessage = checkErrorMessage.replace('"+nSpecCount+"', nSpecCount);
+return checkErrorMessage;
+}
+
+
+function PasswordFilterHostName(o,f,l)
+{
+if((f.value.toLowerCase()!=""&& ((AtTrim(o.value)).toLowerCase()).indexOf(f.value.toLowerCase())!=-1)||(l.value.toLowerCase()!=""&&((AtTrim(o.value)).toLowerCase()).indexOf(l.value.toLowerCase())!=-1))
+{
+return true;
+}
+else
+return false;
+}
+function PasswordFilterForSiteUrl(o,c)
+{
+if((c.value.toLowerCase()).indexOf((AtTrim(o.value)).toLowerCase())!=-1)
+{
+
+return true;
+}
+else
+return false;
+}
+</script>
+
+	<link rel="stylesheet" href="https://hpesw.webex.com/mw3200/mywebex/html/css/pmr_public.min.css?ver=3032641150">
+    <link rel="stylesheet" href="https://hpesw.webex.com/mw3200/mywebex/html/css/mypmr_attendee.min.css?ver=2841353720">
+    
+	<!-- combine js into one ["jquery.ui.widget.js","jquery.iframe-transport.js","mypmr_attendee.js","javascript.js,"string.js","jquery.ellipsis.js"] by jscompiler local -DD  -->
+    <script src="https://hpesw.webex.com/mw3200/mywebex/html/js/mypmr_attendee_all.min.js?ver=533654841"></script>
+    
+   <script type="text/javascript" src="https://hpesw.webex.com/mw3200/mywebex/html/js/protocolcheck.js?ver=1245354424"></script>
+
+
+
+	<!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - Start -->
+	
+	<!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - End -->
+	
+	<style type="text/css">
+    	
+    		
+    		
+    			.hostAvatar{display: block;width: 11vw;height: 11vw; border-radius: 6vw; margin-left:7vw; border:1px solid #ccc; box-shadow: 0 0 0px 2px #fff inset ;
+    				background: url('https://hpesw.webex.com/mw3200/downloadFileServlet?siteurl=hpesw&fileURI=QUhTSwAAAAT_X-qj_h4ZAoY3X3BT2NrG9m9k7165ebVr1Pa0OoXSOPBXanIYopR6AIPgCVqqpwT5ERtB2gL_PGd2_puGit6VbFLoISfIEBhv8Tu2gPEWamvby70FfhHCrpI8JmYEVvsC6wweAjgFoLzssjT59cA10&isAbsolute=true') no-repeat; background-size: cover;background-position: center; 
+    			}
+    		    	
+    	
+        
+        
+        .hostAvatar img.hostAvatar_img{display:none}
+        .highContrast .hostAvatar img.hostAvatar_img{width: 100%;height: 100%; display:block}
+    	.btn.big {
+    		height: 53px;    		
+    	}
+    	
+    	#mwx-lnk-logoutLink:hover {
+					    color: #049FD9;
+					    text-decoration: none;
+					}
+		.chair{	    
+		    z-index:-3;
+		}
+		.con_bottom{
+		    z-index:-2;
+		}
+		.cup{
+		    z-index:-1;
+		}
+		
+    </style>
+	<script language="javascript">
+	
+		$(function() {	
+			
+		      	if(self!= top){
+		      		top.location = self.location.href;
+		      	} 
+		      	
+		});
+	
+		function closeTips() {
+	        $("#btn_more_info+div.popover").find("a.close").trigger("click");
+	    }
+	    function refreshPage() {
+	        location.href = location.href;
+	    }
+	    function KeyDown(event) {
+	        if(event.keyCode==27 || event.keyCode==13){
+	        	
+	            	JoinNow();
+	            
+	        }
+	    }
+	    
+	    function AttNameClick() {
+	        var txtUserName = $("#attendeeName");
+	        var attendeeName = txtUserName.val();
+	        var markedAttName = "Your name";
+	        if (attendeeName == markedAttName) {
+	            txtUserName.val("");
+	            txtUserName.removeClass("markAttInputColor").addClass("attInputColor");
+	        }
+	    }
+	    
+	    function AttEmailClick() {
+	        var txtEmail = $("#attendeeEmail");
+	        var attendeeEmail = txtEmail.val();
+	        var markedEmail = "Your email address";
+	        if (attendeeEmail == markedEmail) {
+	            txtEmail.val("");
+	            txtEmail.removeClass("markAttInputColor").addClass("attInputColor");
+	        }
+	    }
+	    
+	    function AttNameOnblur() {
+	        var txtUserName = $("#atte
+f50
+ndeeName");
+	        var attendeeName = txtUserName.val();
+	        var markedAttName = "Your name";
+	        if (AtTrim(attendeeName) == "") {
+	            txtUserName.removeClass("attInputColor").addClass("markAttInputColor");
+	            txtUserName.val(markedAttName);
+	        }
+	    }
+	    
+	    function AttEmailOnblur() {
+	        var txtEmail = $("#attendeeEmail");
+	        var attendeeEmail = txtEmail.val();
+	        var markedEmail = "Your email address";
+	        if (AtTrim(attendeeEmail) == "") {
+	            txtEmail.removeClass("attInputColor").addClass("markAttInputColor");
+	            txtEmail.val(markedEmail);
+	        }
+	    }
+	    
+	    function checkAttendeeName(attendeeName) {
+	    	var tempName = AtTrim(attendeeName);
+	    	return tempName != "" && tempName != "Your name";
+	    }
+	    function checkGuestInput() {
+	        var attendeeName = document.getElementById("attendeeName").value || "", 
+	        attendeeEmail = document.getElementById("attendeeEmail").value || "";
+	        
+	        var markedAttName = "Your name";
+	        var markedEmail = "Your email address";
+	        
+	        if (!checkAttendeeName(attendeeName)) {
+	            alert("The name is blank. Please type the name.");
+	            document.getElementById("attendeeName").focus();
+	            return false;
+	        }
+	        if (attendeeName.length > 64) {
+	            alert("The name contains too many characters.");
+	            document.getElementById("attendeeName").focus();
+	            return false;
+	        }
+	        if (!AtTrim(attendeeEmail) && 1) {
+	            alert("Please provide your email address.");
+	            document.getElementById("attendeeEmail").focus();
+	            return false;
+	        }
+	        
+	        if (!isValidEmail(attendeeEmail) && $("#attendeeEmail").attr("class").indexOf("markAttInputColor")==-1 && 1) {
+	            alert("Your email address is invalid. Please retype it.");
+	            document.getElementById("attendeeEmail").focus();
+	            return false;
+	        }
+	 
+	        if (!isValidEmail(attendeeEmail) && $("#attendeeEmail").attr("class").indexOf("markAttInputColor")>=0) {
+	      	  $("#attendeeEmail").val("");
+	      	}
+	
+	        return true;
+	    }
+
+	    function getJoinURL (isLauchThin) {
+	        var saveJoinInfo ="";
+	        var attendeeName ="";
+	        var attendeeEmail ="";
+	   	 	
+	        attendeeName = "Mani";
+	        attendeeEmail = "sarma_mani\x40g6hospitality.com";
+	        if ($("#cookieInfo").is(":hidden"))
+	        {
+	            attendeeName = document.getElementById("attendeeName").value+"";
+	            attendeeEmail = document.getElementById("attendeeEmail").value+"";
+	        }
+	        var rememberElement = $('#mwx-chk-rememberme');
+	        if (rememberElement.length > 0) {
+	            var checkFlag = rememberElement.data('checkbox').getValue();
+	            if (checkFlag) {
+	                saveJoinInfo = "&SaveJoinInfo=on";
+	            } else {
+	                saveJoinInfo = "&SaveJoinInfo=off";
+	            }
+	            
+	        }
+	        
+    
+	      if (!checkAttendeeName(attendeeName))
+	      {
+	        alert("The name is blank. Please type the name.");
+	        document.getElementById("attendeeName").focus();
+	        return false;
+	      }
+	        
+	      if(attendeeName.length>64)
+	      {
+	        alert("The name contains too many characters.");
+	        document.getElementById("attendeeName").focus();
+	        return false;
+	      }
+	    var emailHint = 'Your email address';
+	    if ((AtTrim(attendeeEmail)=="" || AtTrim(attendeeEmail)==emailHint ) && 1)
+	    {
+	     // showInputArea();
+	       alert("Please provide your email address.");
+	      document.getElementById("attendeeEmail").focus();
+	      return false;
+	    }
+	    
+	      if (AtTrim(attendeeEmail)!="")
+	      {
+	    	  if (!isValidEmail(attendeeEmail) && $("#attendeeEmail").attr("class").inde
+b68
+xOf("markAttInputColor")>=0)
+	          {
+	      	 	 attendeeEmail = "";
+	      	  }
+	
+	          if (!isValidEmail(attendeeEmail) && $("#attendeeEmail").attr("class").indexOf("markAttInputColor")==-1){
+		          alert("Your email address is invalid. Please retype it.");
+		          document.getElementById("attendeeEmail").focus();
+		          return false;
+	         }
+	      }
+	    
+	     
+	     
+	     
+	    var joinURL;
+	     if (attendeeName != "" && attendeeName != null) {
+	         joinURL='/mw3200/mywebex/cmr/cmr.do?from=cmr&siteurl=hpesw&AT=join&attendeeName='+encodeURIComponent(attendeeName) +'&attendeeEmail='+encodeURIComponent(attendeeEmail)+saveJoinInfo+'&username=luis-diego.retana.rodriguez';
+	     } else {
+	         joinURL='/mw3200/mywebex/cmr/cmr.do?from=cmr&siteurl=hpesw&AT=join&username=luis-diego.retana.rodriguez';
+	     }
+	     
+	     
+	     if(isLauchThin){
+	    	 joinURL+='&logfrom=11';
+	     }else {
+	    	 joinURL+= "&logfrom=6";
+	     }
+	     
+	     return joinURL;
+	    }
+	    //psobegin fix disclaimer page refresh in frameset add by dirk
+	    function JoinNow() {
+	          
+	        var ret = getJoinURL(false);
+	        if (ret != false) {
+	            //top.location.href = ret;
+	            var stepUrl =ret;
+	            var x = document.getElementById("myPersonalMeetingForm");
+	            x.action = stepUrl;
+	            var today=new Date();
+	            document.getElementById("clicktime").value=today.getTime();
+	            x.submit();
+	        }
+	    }
+	    //psoend add by dirk
+	
+	    function ThinClientJoinNow(type){
+	        var joinURL='/mw3200/mywebex/cmr/cmr.do?from=cmr&signBeforeJoin=1&fromThinClient=' + (type? type : 1) + '&siteurl=hpesw&AT=join&username=luis-diego.retana.rodriguez';
+	        var x = document.getElementById("myPersonalMeetingForm");
+	        x.action = joinURL;
+	        x.submit();
+	    }
+
+	    function FacebookJoinNow() {
+	    	
+	    	top.location.href='https://idbroker.webex.com/idb/IdBMeetingsLogin?client_id=Cea3f76aceb1bfd9d4c25093605b51916e23d5ff9ae7144a6b9f643730675ac8f&returnURL=https%3A%2F%2Fhpesw.webex.com%2Fmw3200%2Fmywebex%2Fcmr%2Fcmr.do%3Ffrom%3Dcmr%26siteurl%3Dhpesw%26AT%3Djoin%26username%3Dluis-diego.retana.rodriguez&webexSiteName=hpesw.webex.com&loginType=FB';
+	    }
+
+	    function SparkJoinNow() {
+
+             
+              writeSparkJoinTelemetry();
+             top.location.href='https://hpesw.webex.com/wbxmjs/sparkjoin/sparkjoin?siteurl=hpesw&pmrurl=https%3A%2F%2Fhpesw.webex.com%2Fmeet%2Fluis-diego.retana.rodriguez&pmrsip=luis-diego.retana.rodriguez%40hpesw.webex.com&language=en_US';
+         }
+
+
+
+       function writeSparkJoinTelemetry(){
+          var meetingKey ='801578856'
+          var urlParams ='pmrID=luis-diego.retana.rodriguez'+'&meetingKey='+meetingKey+'&pmrsip=luis-diego.retana.rodriguez%40hpesw.webex.com&siteurl=hpesw'
+          $.ajax({
+                       url: '/mw3200/mywe
+f0
+bex/sparkJoinTelemetry.do?'+urlParams,
+                       type: 'POST',
+                       async: true,
+                       data: {},
+                       success:function(data){
+                        //nothing to do.
+       
+b68
+                }
+                     });
+         }
+
+
+
+	    function ClearJoinInfo()
+	    {
+	        ret=confirm("Remove all your personal information, including registration, stored on this computer? The information will be lost permanently.");
+	       if (ret == true)
+	        {
+	          var clearJoinInfoParm = "&clearJoinInfo=1";
+	          top.location.href='/mw3200/mywebex/cmr/cmr.do?siteurl=hpesw&AT=meet&username=luis-diego.retana.rodriguez'+clearJoinInfoParm;
+	        }  else  {
+	          return;
+	        }
+	    }
+	    
+	    function PopupSendInvite()
+	    {
+	        WinOpt = "toolbar=no,status=no,meunu=no,scrollbars=yes,resizable=1,width=510,height=450,top=200,left=200";
+	        var link = "https://hpesw.webex.com/mc3200/meetingcenter/cmr/invite.do?AT=init&siteurl=hpesw";
+	        window.open(link,"",WinOpt);
+	        return;
+	    }
+	    
+	
+	    function showInputAreaDefault() 
+	    {
+            $('.s2_r>h1').css('max-height','110px');
+            $('.s2_r>h1').dotdotdot();
+	    	hideShowInput(false);
+	        $("#attendeeName").focus();
+	        $("#attendeeName").click();
+	        $("#cookieInfo").hide();
+		
+			$('#beta-label-thin-client').popover('hide');
+	
+	        if(window.initThinClientUI){
+	            window.initThinClientUI();
+	        }
+	        cleanCookieAndShowCaptchaForNotMe();
+	    }
+	    
+	    function cleanCookieAndShowCaptchaForNotMe() {
+	    	var joinURL='/mw3200/mywebex/cmr/cmr.do?from=cmr&siteurl=hpesw&AT=join';
+	        $.ajax({
+                url: joinURL + '&clickNotMe=1',                 
+                type: 'post',
+                success: function(data){
+                	
+                	return;
+               }
+            });
+	    }
+	
+	    function showFilledInputArea() 
+	    {
+	        attendeeName = "";
+	        attendeeEmail = "";
+            $('.s2_r>h1').css('max-height','110px');
+            $('.s2_r>h1').dotdotdot();
+	    	hideShowInput(false);
+	    	if(attendeeName!=null&&attendeeName!='') {
+	    		$("#attendeeName").val(attendeeName);
+	    	}
+            if(attendeeEmail!=null&&attendeeEmail!='') {
+            	$("#attendeeEmail").val(attendeeEmail);
+            }         
+	        $("#cookieInfo").hide();
+		
+		$('#beta-label-thin-client').popover('hide');
+
+	        if(window.initThinClientUI){
+	            window.initThinClientUI();
+	        }
+	    }
+	    
+	    function showFilledInputAreaFromURLAPI() 
+	    {
+	        attendeeName = "null";
+	        attendeeEmail = "null";
+            $('.s2_r>h1').css('max-height','110px');
+            $('.s2_r>h1').dotdotdot();
+	    	hideShowInput(false);
+	    	if(attendeeName!=null&&attendeeName!='') {
+	    		$("#attendeeName").val(attendeeName);
+	    	}
+            if(attendeeEmail!=null&&attendeeEmail!='') {
+            	$("#attendeeEmail").val(attendeeEmail);
+            } 
+	        $("#cookieInfo").hide();
+		
+		$('#beta-label-thin-client').popover('hide');
+
+	        if(
+17c0
+window.initThinClientUI){
+	            window.initThinClientUI();
+	        }
+	    }
+	
+	    function showInputArea() 
+	    {
+	    	hideShowInput(false);
+	
+	        
+	        attendeeName = "Mani";
+	        attendeeEmail = "sarma_mani\x40g6hospitality.com";
+	         if (attendeeName !="" && attendeeEmail=="") {
+	            $("#attendeeName").removeClass("markAttInputColor").addClass("attInputColor");
+	            $("#attendeeName").val(attendeeName);
+	            $("#attendeeEmail").val("");
+	            $("#attendeeEmail").focus();
+	         }
+	         
+	        
+	        $("#cookieInfo").hide();
+	        if(window.initThinClientUI){
+	            window.initThinClientUI();
+	        }
+	    }
+	    
+	    function hideShowInput(hideFlag) {	    	
+	    	if (hideFlag) {
+	    		$("#attendeeName").hide();
+	        	$("#attendeeEmail").hide();
+	        	$("#mwx-input-optional").hide();
+	        	$("#mwx-div-nocookie_btn_line").hide();  
+	        	$("#mwx-div-cookie_btn_line").show();    
+	        	$("#cookieInfo").show();
+	        	$("#mwx-div-remember-me").hide();
+	        	$("#btn_more_info").css('margin-top', '0px');
+	    	} else {
+	    		$("#attendeeName").show();
+	        	$("#attendeeEmail").css('display', 'inline');
+	        	$("#mwx-input-optional").show();
+	        	$("#mwx-div-remember-me").show();
+	        	$("#btn_more_info").css('margin-top', '15px');
+	        	$("#cookieInfo").hide();
+	        	$("#mwx-div-nocookie_btn_line").show(); 
+	        	$("#mwx-div-cookie_btn_line").hide();    
+	    	}	    	
+	    }
+	
+	</script>
+	              
+	
+</head>
+<body class = "t_pmrs t_pmrs_attendee">
+	<form action="" method="post" id="myPersonalMeetingForm" onsumbit="return false;">
+    <input type="hidden"  id="clicktime" name="clicktime"/>
+     
+	<div class='world_3d' id='world_3d'>
+        <div class='con_top'></div>
+        <div class='con_mid'>
+            <div class='con_mid_l1'></div>
+            <div class='con_mid_l2 pmr_middle_body' id='con_mid_l2'>
+                <div class='screen_i2'>                  
+                  <div class='htop'></div>
+                  <div class='s2_main'>
+                      <div class='l s2_l'>
+                          <div class='hostAvatar'>
+                            <img  alt='avatar' src="
+                            
+	                    https://hpesw.webex.com/mw3200/downloadFileServlet?siteurl=hpesw&fileURI=QUhTSwAAAAT_X-qj_h4ZAoY3X3BT2NrG9m9k7165ebVr1Pa0OoXSOPBXanIYopR6AIPgCVqqpwT5ERtB2gL_PGd2_puGit6VbFLoISfIEBhv8Tu2gPEWamvby70FfhHCrpI8JmYEVvsC6wweAjgFoLzssjT59cA10&isAbsolute=true 
+                             " class="hostAvatar_img" alt="">
+                              
+                          </div>
+                      </div>                     
+                      <div class='l s2_r'>
+                          <h1 title="Diego Retana&#39;s Personal Room">Diego Retana&#39;s Personal Room</h1>
+                          <h2 style="display:none;">It&#39;s a great day to make magic!</h2>
+                          
+                             
+                          	
+ 								 
+ 								
+ 									
+
+
+
+<p data-modeA class='mt50' id="cookieInfo" >
+	<label id="mw_lab_join_as">Joining as Mani</label>
+	<span><a id="mw_lnk_notas" href="javascript:showInputAreaDefault();">Not Mani?</a></span>
+</p>	
+<div class='' style="margin-top: 13px;" id="mwx-div-cookie_btn_line" >
+		<a href="javascript:void(0)" rel="Join using desktop app" role="button" id='btn_join' OnClick="Javascript:JoinNow()" class='btn_join btn_pmr_train_join'>Join Meeting</a>
+    	
+    	
+</div>    
+
+
+
+	<input style="display:none" data-modeB type="text" class="mt50" maxlength="64" size="35" type="text" id = "attendeeName" name="attendeeName" size="25" maxlength="64" onkeydown="AttNameClick()" onclick="AttNameClick()" onblur="AttNameOnblur()" onkeypress="KeyDown(event)" value='Your name'/>
+	<label for="attendeeName" class="hide">Your Name</label>
+	
+    <input style="display:none;" data-modeB type="text" maxlength="64" size="35" type="email" id ="attendeeEmail" name="attendeeEmail" size="25" maxlength="64" onkeydown="AttEmailClick()" onclick="AttEmailClick()" onblur="AttEmailOnblur()" onkeypress="KeyDown(event)" value='Your email address'/>
+    
+	<label for="attendeeEmail" class="hide">Your email address</label>
+	
+	<!--Remember me checkbox-->  
+	
+<div class="form-group hide" id="captchaDiv">
+ <div class="col-sm-9" style="padding-left:0px; white-space:nowrap;">
+		<div id="captchaContainer">
+		       <img alt="captcha image" id="mwx-img-verificationImage" class="mwx-img-verificationImage" style="margin-top:14px;"  src="https://hpesw.webex.com/mw3200/mywebex/verificationimage.do?siteurl=hpesw&rnd=0.5751881533979614" />
+		</div>
+		<div id="captchaTextContainer" class="captchaTextContainer">
+			<input id="mwx-txt-captchaInput" aria-label="verification" class="mwx-txt-captchaInput" onkeypress="KeyDown(event)" style="margin-top:14px;" type="text" name="captcha" size="10" maxlength="6" value="">
+		</div>
+		<div id="moreImagediv" class="moreImagediv" style="margin-top:14px;" >
+			<a class="icon-group icon-group-refresh" id="mwx-lnk-moreImage" role="button" aria-label="refresh captcha" href="javascript: void(0)"></a>
+		</div>
+		<div id="sounddiv" class="sounddiv" style="margin-top:14px;" >
+			<a class="icon-group icon-group-audio" id="mwx-lnk-sound" role="button" aria-label="captcha content" href="javascript: void(0)"></a>
+		</div>
+		<div class="captchaSoundArea">
+			<audio type="audio/x-wav" id="captcha_audio" class="hide"></audio>
+			<object width="0" height="0" class="hide" type="application/x-oleobject" classid="clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6">
+				<param value="-1" name="autoStart">
+			</object>
+		</div>
+		<div id="captchaArea" class="captchaArea">
+		
+			<div id="captchaNoErrMsg" class="captchaNoErrMsg">
+		    </div>
+		
+		</div>
+	</div>
+
+  </div>
+    <div class='' id="mwx-div-nocookie_btn_line" style="margin-top: 13px;display:none" >
+    	<a href="javascript:void(0)" role="button" id="mwx-btn-pmr-enter-lobby"   class='btn_join btn_join_gray btn_pmr_tra
+1f40
+in_join'>Join Meeting</a>
+    	
+    	
+    </div>
+
+    <script language="javascript">
+    function init($, focusEleName){
+ 	   initCaptcha();
+    }
+    
+    function initCaptcha(){
+ 		var audioSrc = "https://hpesw.webex.com/mw3200/mywebex/verificationsound.do?siteurl=hpesw";
+ 		var imageSrc = "https://hpesw.webex.com/mw3200/mywebex/verificationimage.do?siteurl=hpesw";
+ 		var isIE = Train.Util.browser.msie;  // && (!Train.Util.browser.isIE11);
+ 		var previousPlayer = null;
+ 		$("#mwx-lnk-moreImage").click(function(){
+ 			regenerateImage(imageSrc);
+ 		});
+ 		$("#mwx-lnk-sound").click(function(){
+ 			//switchCaptchaOps("sound");
+ 			launchAudio(isIE,audioSrc,previousPlayer);
+ 		});
+ 		$("#mwx-lnk-moreSound").click(function(){
+ 			regenerateImage(imageSrc);
+ 			$("#mwx-img-verificationImage").one("load",function(){
+ 				launchAudio(isIE,audioSrc,previousPlayer);
+ 			});
+ 		});
+ 		$("#mwx-lnk-image").click(function(){
+ 			//switchCaptchaOps("image");
+ 			
+ 		});
+ 		$("#mwx-lnk-replay").click(function(){
+ 		    launchAudio(isIE,audioSrc,previousPlayer);
+ 		});
+ 		
+ 		//$("#captchaContainer").attr("style","width:120px;height:43px;border:1px solid rgba(151,151,151,0.2);margin-right:6px;text-align:center;float:left");
+ 		//$("#mwx-txt-captchaInput").attr("style","width:126px");
+    }
+ 	function regenerateImage(imageSrc) {
+ 		var image = document.getElementById("mwx-img-verificationImage");
+ 		image.src = imageSrc + "&rnd=" + Math.random();
+ 	}
+ 	function switchCaptchaOps(type){
+ 		if(type == "image"){
+ 			$("#imageOp").show();
+ 			$("#soundOp").addClass("hide");
+ 			$("#mwx-lnk-replay").addClass("hide");
+ 			$("#mwx-img-verificationImage").removeClass("hide");
+ 			$("#mwx-lnk-sound").focus();
+ 		}else{
+ 			$("#imageOp").hide();
+ 			$("#soundOp").removeClass("hide");
+ 			$("#mwx-lnk-replay").removeClass("hide");
+ 			$("#mwx-img-verificationImage").addClass("hide");
+ 			$("#mwx-lnk-replay").focus();
+ 		}
+ 	}
+ 	function launchAudio(isIE,audioSrc,previousPlayer){
+ 		if(isIE){
+ 			getIESound(audioSrc);
+ 		}else{
+ 			getSound(audioSrc,previousPlayer);
+ 		}
+ 	}
+ 	function getSound(soundSrc,previousPlayer) {
+ 		if (previousPlayer) {
+             this._previousPlayer.pause();
+         }
+ 		var audio = document.getElementById("captcha_audio");
+ 		audio.src = soundSrc + "&rnd=" + Math.random();
+ 		audio.play();
+ 		previousPlayer = audio;
+ 	}
+ 	function getIESound(soundSrc){
+ 		var player = $(".captchaSoundArea object")[0];
+         var src = soundSrc + "&rnd=" + Math.random();
+         player.URL = src;
+         player.controls.play();
+ 	}
+ 	
+ 	function showCaptchaArea() {
+ 		$("#captchaDiv").removeClass("hide");
+ 		init($,"captcha");
+        showFilledInputArea(); 
+ 	}
+
+	$(function() {
+		var attendeeName = "Mani";
+        if (attendeeName != "" && attendeeName != null) {
+        	hideShowInput(true);  
+			var currentHour = new Date().getHours();			
+			
+			
+				if(currentHour >= 0 && currentHour < 12) {
+					$('#mw_lab_join_as').text('Good morning, Mani \(sarma_mani@g6hospitality.com\).');
+				} else if(currentHour >= 12 && currentHour < 18) {
+					$('#mw_lab_join_as').text('Good afternoon, Mani \(sarma_mani@g6hospitality.com\).');
+				} else {
+					$('#mw_lab_join_as').text('Good evening, Mani \(sarma_mani@g6hospitality.com\).');
+				}
+			
+			$("#btn_more_info").css('margin-top', '15px');
+        } else {
+        	hideShowInput(false);
+        }
+        
+        
+	});
+
+
+
+	</script>
+
+                                      
+ 								      
+ 							                    
+                          
+                          
+                          
+                          <h3 class='h2_icon' id='btn_more_info' tabindex="0" role="button" aria-label="More ways to join"><i class='icon_info'></i>More ways to join</h3>
+                     	  <div id = "blank_div" style = "margin-top :30px;">
+						  </div>
+                      </div>
+                  </div>
+                </div>
+                <div class='screen_i3'  style="cursor:auto">
+	                
+                  	
+                		
+                      	                      		
+                      		<div class='si_img_1' style="cursor:auto">
+                      		<img alt='wall photo'  style="cursor:auto" src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/image_list1.png?ver=4149818356' />
+                      		</div>
+                      	
+                      	
+                    
+                		
+                      	                      		
+                      		<div class='si_img_2' style="cursor:auto">
+                      		<img alt='wall photo'  style="cursor:auto" src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/image_list2.png?ver=3232546597' />
+                      		</div>
+                      	
+                      	
+                    
+                		
+                      	                      		
+                      		<div class='si_img_3' style="cursor:auto">
+                      		<img alt='wall photo'  style="cursor:auto" src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/image_list3.png?ver=2541484392' />
+                      		</div>
+                      	
+                      	
+                    
+                		
+                      	                      		
+                      		<div class='si_img_4' style="cursor:auto">
+                      		<img alt='wall photo'  style="cursor:auto" src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/image_list4.png?ver=3044471047' />
+                      		</div>
+                      	
+                      	
+                    
+                </div>
+                <a class='ar_left' id='ar_left' style="display:none;" tabindex="0" href="javascript:void(0)"   role="button" aria-label="go to left page"><span style="display:none;">forAccessibility</span></a>
+                <a class='ar_right' id='ar_right'  role="button" href="javascript:void(0)"  tabindex="0" aria-label="go to right page"><span style="display:none;">forAccessibility</span></a>
+            </div>
+            <div class='con_mid_l3'></div>
+        </div>
+        
+         
+         
+	         <div class='logo_info'  data-diff style="opacity:1;" >
+	              <a id="mwx-lnk-logoutLink" href="https&#58;&#47;&#47;hpesw.webex.com&#47;mw3200&#47;mywebex&#47;login&#47;login.do&#63;siteurl&#61;hpesw&#38;login_return_url&#61;&#37;2Fmw3200&#37;2Fmywebex&#37;2Fcmr&#37;2Fcmr.do&#37;3Fsiteurl&#37;3Dhpesw&#37;26AT&#37;3Dmeet&#37;26username&#37;3Dluis-diego.retana.rodriguez&#37;26clickElementID&#37;3DClickNothing">Log In</a>
+	         </div>
+	    
+	    <div id="disclaimer" class='copyright pmr_footer_alumin'>By joining this meeting, you are accepting the <span><a href="https://www.webex.com/webex_terms.html" target=_blank>Terms of Service</a></span> and <span><a href="https://www.webex.com/webex_privacy.html" target=_blank>Privacy Statement</a></span>.</div>
+	    <script language="javascript">
+	    	var deskIndexSaved = 0;
+	    	 var disclaimerColor=[{
+		            color:'rgb(212,212,212)',
+		            classname:'copyright pmr_footer_wood'
+		        },{
+		            color:'rgb(212,212,212)',
+		            classname:'copyright pmr_footer_cherrywood'
+		        },{
+		            color:'rgb(255,255,255)',
+		            classname:'copyright pmr_footer_glass'
+		        },{
+		            color:'rgb(136,136,136)',
+		            classname:'copyright pmr_footer_alumin'
+		        }];
+			  	//$('#disclaimer').css('color',disclaimerColor[deskIndexSaved].color);
+			  	 $('#disclaimer').attr('class',disclaimerColor[deskIndexSaved].classname);
+		</script>
+        <img src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/chair.png?ver=324342609' class='chair' alt='chair' />
+        
+			<img src='https://hpesw.webex.com/mw3200/mywebex/html/img/mypmr/Wood-Table.png?ver=110555639'  alt='table' class='con_bottom' id='con_bottom2' style="vertical-align: top;"/>
+		   
+			   
+			   
+			  
+		
+					
+					
+						<img src='https://hpesw.
+99c
+webex.com/mw3200/mywebex/html/img/mypmr/cups2.png?ver=636253536' class='cup'  alt='cup' id='cu2p' />
+										
+			  
+	          
+	                  
+    </div>   
+    </form> 
+    
+  
+ <div style="position:absolute;left:-9900px;top:-9900px;">
+	<span id="hiddenMeetingURL">https&#58;&#47;&#47;hpesw.webex.com&#47;meet&#47;luis-diego.retana.rodriguez</span>
+ </div>
+ <div id= "pmr_more" class="form-group form-section" style="display:none;margin-top:50px;margin-bottom:200px;margin-left:330px;z-index:9999999">
+ 
+ 		<div class="pmr_pop">
+                <div class="pmr_pop_title">
+                    <div class="pmr_pop_title_t" title="Diego Retana&#39;s Personal Room" >Diego Retana&#39;s Personal Room</div>
+                    <div class="pmr_subtitle" style="white-space:nowrap;">
+						<label for="ipt-pmr-mmetingURL" style="display:none;">meetingURL</label>
+						<label for="ipt-pmr-meetingAccessCode" style="display:none;">meetingURL</label>
+						<input id="ipt-pmr-mmetingURL" onmouseover="this.select();" style="border:none;"  class="tipChageWidth pmr_invite_link" name="meetingURL" value="https&#58;&#47;&#47;hpesw.webex.com&#47;meet&#47;luis-diego.retana.rodriguez" title="https&#58;&#47;&#47;hpesw.webex.com&#47;meet&#47;luis-diego.retana.rodriguez" >
+						<span class="pmr_slit">|</span><input onmouseover="this.select();" class="pmr_invite_num" value="801 578 856" style="border:none;vertical-align:middle;width:90px;"  id="ipt-pmr-meetingAccessCode" name="meetingAccessCode">
+					</div>
+                </div>
+                
+                <!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - Start -->
+                
+				<!-- BMMP Widget for Upgrade Message in PMR - More Ways to Join - End -->
+                
+                <div class="pmr_pop_c">
+                    
+                   
+                   	
+                                    
+                    
+                	
+            </div> 
+            <!-- new end -->
+				
+			</div>
+ </div>
+  <script language="javascript">
+  $(function(){
+		var inputWidth = $("#hiddenMeetingURL").width();
+		if(inputWidth < 275){
+			$("#tip-meetingURL").css("width", inputWidth + "px");
+		}else{
+			$("#tip-meetingURL").css("width", "275px");
+		}
+	});
+  </script> 
+    
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"d587fef721","agent":"","beacon":"bam.nr-data.net","applicationTime":159,"applica
+b68
+tionID":"62006958","transactionName":"YAdVYUpUDRUDVkZbDVlNYkdRGg4RUQcCAk1aG0BQWlAbSQFYQB0BWhAZUVc=","queueTime":0}</script></body>
+<script language="javascript" type="text/javascript">
+	function openPhotoLink(photoIndex) {
+		
+		if ($('.screen_i3').css('opacity') == '1') {
+			var photoLinkURL = "https://www.webex.com/pricing/index.html";
+			if (photoIndex == 1) {
+				photoLinkURL = "http://www.ciscospark.com/products/spark-messaging.html#download";
+			} else if (photoIndex == 2) {
+				photoLinkURL = "https://meetings.webex.com/collabs/auth";
+			} else if (photoIndex == 3) {
+				photoLinkURL = "https://www.webex.com/products/web-conferencing/mobile.html";
+			} 
+			window.open(photoLinkURL);
+		}
+		
+	}
+	$(function(){
+		var $font =  $("span#autoSelected");
+        var meetLinkWidth = 400;
+        var contentHtml = [
+				document.getElementById("pmr_more").innerHTML
+        ];
+		$("#pmr_more").html("");
+        var $moreInfo = $("#btn_more_info");
+        var templateString = '<div class="popover t-poptip fade pmr_popw" role="alert" style="z-index: 5000;"><div class="arrow">&#8896;</div><div class="popover-content">'+contentHtml.join('')+'</div></div>';
+        var topMore  = 0.8;
+        
+       		 topMore  = 0.7;
+        
+        
+        $moreInfo.poptip({
+            placement:"right",
+            html: true,
+            accessible:true,
+            trigger:"click",
+            showClose: true,
+            template: templateString,
+            autoClose:true,
+			dynamicArrow : true,
+		    //	alwaysOnTopOf : "#blank_div",
+		    percentOfTipShownOnTheTopOfTrigger:topMore,
+			id : "tip-helpIcon",
+			container:"body",
+            content:contentHtml.join('')
+        }).on('shown.bs.popover', function () {
+				$moreInfo.addClass("h2_icon_poptipShown");
+				var $iconFirst = $($moreInfo.find("i")[0]);
+				$iconFirst.removeClass("icon_info").addClass("icon_info2");
+				var inputWidth = $("#hiddenMeetingURL").width();
+					var $meetingURLNode = $("#tip-helpIcon").find(".tipChageWidth");
+					if(inputWidth < 255){
+						$meetingURLNode.css("width", inputWidth + "px");
+					}else{
+						$meetingURLNode.css("width", "255px");
+					}
+        }).on('hidden.bs.popover', function(){
+            //isShow = true;
+			$moreInfo.addClass("h2_icon_poptipShown");
+			var $iconFirst = $($moreInfo.find("i")[0]);
+			$iconFirst.removeClass("icon_info2").addClass("icon_info");
+        }).on('click', '', function(evt){
+        	<!-- BMMP Widget for More Ways to Join in Non-Frame PMR header - Start -->
+			
+			<!-- BMMP Widget for More Ways to Join in Non-Frame PMR header - End -->
+        });
+        
+        $('[data-toggle="tooltip"]').tooltip();
+        
+        var closeThinClientPopOver = function(){
+			if($("#mwx-div-nocookie_btn_line").is(":visible")){
+	            $("#mwx-div-nocookie_btn_line").find("#beta-label-thin-client").popover("hide");
+			}else if($("#mwx-div-cookie_btn_line").is(":vi
+15b9
+sible")){
+				$("#mwx-div-cookie_btn_line").find("#beta-label-thin-client").popover("hide");
+			}
+		
+		};
+		
+		
+    	 $(document).on("transformIMAXBegin",function(e, item){    	
+			closeThinClientPopOver();
+			$.fn.poptip.closeAllTip();
+		});  
+		
+		$(document).on("transformIMAXEnd",function(e,item){
+			if(item.next.index==1){
+				$('#ar_left').focus();
+				$("#con_mid_l2").addClass('pmr_right_body');
+				$("#con_mid_l2").removeClass('pmr_middle_body');
+			} else {
+				$("#con_mid_l2").removeClass('pmr_right_body');
+				$("#con_mid_l2").addClass('pmr_middle_body');
+			}
+			
+		});
+		$(window).on("resize",function(){
+			closeThinClientPopOver();
+		});
+		
+	});
+
+$(function(){
+    var checkbox = $('#remember-me')
+    if (checkbox.length > 0) {
+        checkbox.checkbox({
+            text:"Remember me",
+            name:"savePwd",
+            checked: true,
+            disabled: false,
+            id:"mwx-chk-rememberme",
+            click: function() {
+                //
+            }
+        });
+    }
+    var txtUserName = $("#attendeeName");
+    var txtEmail = $("#attendeeEmail");
+    var txtCaptcha = $("#mwx-txt-captchaInput");
+    function checkStartBtnDisable() {
+  
+   
+   var startBtn = $("#mwx-btn-pmr-enter-lobby"),
+  
+            btnPB  =  $('[data-input-driven-state="1"].direct');       
+            
+        var txtUserNameVal = txtUserName.val();
+        var txtEmailVal = txtEmail.val();
+        var txtRequiredAttendeeEmail = 1;
+        var markedAttName = "Your name";
+        var markedEmail = "Your email address";
+ 
+        var sameAttName = false;
+        var sameAttEmail = false;
+        if (txtUserNameVal == markedAttName) {
+            sameAttName = true;
+            txtUserName.removeClass("attInputColor").addClass("markAttInputColor");
+        } else {
+            sameAttName = false;
+            txtUserName.removeClass("markAttInputColor").addClass("attInputColor");
+        }
+        if (txtEmailVal == markedEmail) {
+            sameAttEmail = true;
+            txtEmail.removeClass("attInputColor").addClass("markAttInputColor");
+        } else {
+            sameAttEmail = false;
+            txtEmail.removeClass("markAttInputColor").addClass("attInputColor");
+        }
+        
+        var nameIsEmpty = false;
+        var emailIsEmpty = false;
+        if (txtUserName.length > 0) {
+            nameIsEmpty = (txtUserNameVal != "" && !sameAttName) ? false : true;
+        }
+        if (txtEmail.length > 0) {
+            emailIsEmpty = (txtEmailVal != "" && !sameAttEmail) ? false : true;
+        }
+        if (!checkCaptcha(txtCaptcha) || nameIsEmpty || (emailIsEmpty && txtRequiredAttendeeEmail) || (!isValidEmail(txtEmailVal) && !emailIsEmpty)) {
+        	startBtn.unbind("click");
+        	startBtn.click(
+        		function() {
+        			return;
+        		}
+        	);
+            btnPB.addClass('disabled');
+            btnPB.attr('disabled', 'disabled');
+            $('#div_pmr_thin_join_nocookie').addClass('disabled');
+            startBtn.addClass("btn_join_gray");
+        } else {
+             btnPB.removeClass('disabled');
+             btnPB.removeAttr('disabled');
+             $('#div_pmr_thin_join_nocookie').removeClass('disabled');
+             startBtn.removeClass("btn_join_gray");
+             startBtn.unbind("click");
+             startBtn.click(
+            	function() {
+            		 JoinNow();
+            	}
+             );             
+        }
+    }
+    
+    function checkCaptcha(captchaInput) {
+    	if(captchaInput != null && captchaInput.length>0 && captchaInput.is(":visible")) {
+            var txtCaptcha = captchaInput.val();
+            if (txtCaptcha.length > 0) {
+            	return true;
+            } else {
+            	return false;
+            }
+    	} else {
+    		return true;
+    	}
+
+    }
+    
+    if (txtUserName.length > 0) {
+        txtUserName.on("paste change keyup blur",function(){
+            checkStartBtnDisable();
+        });
+    }
+    if (txtEmail.length > 0) {
+        txtEmail.on("paste change keyup blur",function(){
+            checkStartBtnDisable();
+        });
+    }
+    
+    if (txtCaptcha != null && txtCaptcha.length > 0) {
+    	txtCaptcha.on("paste change keyup blur",function(){
+    		checkStartBtnDisable();
+        });
+    }
+    
+      
+    checkStartBtnDisable();
+    $("#attendeeName").blur();
+    $("#attendeeName").focus();
+    
+    
+    var errorMsg = $("#errorText");
+    if(errorMsg != null && errorMsg.is(":visible")){
+	       var captchaInput = $("#mwx-txt-captchaInput");
+	       captchaInput.val('');
+	       captchaInput.focus();
+    }
+    
+    
+});
+
+
+</script>
+<script type="text/javascript">
+
+
+    // this flag for lobby room return back after login.
+    top.need_login_callback_url="true";
+    
+</script>
+
+    
+    
+    
+
+
+            
+            <script src="https://nebulas.webex.com/pb/web/2.8.0.231/thinClientSupportAPI.js?rnd=0.48467096063818726"></script>
+            
+            
+
+        <script>
+        $(function(){
+        $('#split-style-thin-client').css('margin-top', '13px');
+             $('.s2_r>h1').dotdotdot();//for bug CSCuy30763
+            $(window).resize(function(){
+                $('.s2_r>h1').dotdotdot();
+            });
+        });
+        </script>
+        <script type="text/javascript"  src="/WBXmjsasset/js/common/prewarmuppmr.js"></script>
+
+		<script type="text/javascript">
+		setTimeout(function(){
+			  if(typeof(PreWarmUpAPI)!='undefined'){
+			 		PreWarmUpAPI.loadLib('1.11.0.2441',$,"true")
+			 	}
+		},1000);
+		</script>   
+        
+        
+    </body>
+
+    
+
+</html>
+0
+

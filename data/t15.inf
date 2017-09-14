@@ -1,0 +1,11 @@
+[t15]
+FileName1=t15.txt
+URL1=https://g6pricing-stg.g6hospitality.com/rest//dynatrace/dynaTraceMonitor?type=js&flavor=post&referer=https%3A%2F%2Fg6pricing-stg.g6hospitality.com%2F%23%2F&app=MyApp&format=lzw
+Total=1
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=t15_RequestBody.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_15.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

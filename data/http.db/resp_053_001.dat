@@ -1,0 +1,40 @@
+ /*
+ * WebEx Meeting Service.
+* Copyright (c) 2016 Cisco and/or its affiliates. All rights reserved.
+*/
+
+var PreWarmUpAPI = (function(self){
+	    self.loadLib = function(bldversion,$,ispmr){
+	    	$.ajaxSetup({
+	    		  cache: true
+	    		});
+	    	var domain="/WBXmjsasset"
+		    	$.getScript(domain+"/js/common/jmf_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/pluginstart_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/tfsstart_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/accessibility.js")
+		    	$.getScript(domain+"/js/common/ieInstallActiveXPageNew_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/webassets_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/trainCommonUI_1_3_0v.js")
+				$.getScript(domain+"/js/common/Linuxlaunch_1_3_0v.js")
+		    	$.getScript(domain+"/libs/bootstrap.min_1_3_0v.js")
+				$.getScript(domain+"/js/common/protocolcheck_1_3_0v.js")
+				$.getScript(domain+"/js/common/trainTfsui_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/ielaunch_1_3_0v.js")
+		    	$.getScript(domain+"/css/installActiveX.css")
+		    	$.getScript(domain+"/img/wbxball_spinner.gif")
+		    	$.getScript(domain+"/img/docshowpoint.jpg")
+		    	$.getScript(domain+"/css/futurama.css")
+		    	$.getScript(domain+"/i18n/join/mjs_en_US.js")
+		    	$.getScript(domain+"/fonts/ciscosansextralight-webfont.eot")
+		    	$.getScript(domain+"/fonts/CiscoSansLight-webfont.woff")
+		    	$.getScript(domain+"/libs/jquery.base64_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/trainPlugin_1_4_0v.js")
+		    	$.getScript(domain+"/js/common/pluginlaunch_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/extension-meetingapi/cwcsf.nativemsg_1_3_0v.js")
+		    	$.getScript(domain+"/js/common/extension-meetingapi/cwcsf.meeting.api_1_3_0v.js")
+				$.getScript(domain+"/js/common/extension-meetingapi/trainExtensionAPI_1_3_0v.js")
+				$.getScript(domain+"/js/common/extension-meetingapi/cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html")
+	    };
+	    return self;
+})(PreWarmUpAPI || {});

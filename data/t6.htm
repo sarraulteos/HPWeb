@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>G6ROW</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/growlogin.css" />
+    <script src="/scripts/jquery-3.1.0.min.js"></script>
+    <script src="/scripts/semantic.min.js"></script>
+    <link rel="apple-touch-icon" href="images/grow_app_icon.png" />
+</head>
+<body>
+
+<div class="pusher">
+    <div class="ui main container">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <h2 class="ui image">
+                    <div class="content">
+                        <img class="logo" src="/images/grow_logo.png" />
+                    </div>
+                </h2>
+
+                
+                
+                
+                
+                <form class="ui large form" method="post" autocomplete="off" action="login">
+                    <div class="ui segment">
+                        <div class="field">
+                            <div class="ui left input">
+                                <!--  <i class="user icon"></i> -->
+                                <input type="text" name="username" placeholder="User ID" autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left input">
+                                <!--                                <i class="lock icon"></i>-->
+                                <input type="password" name="password" placeholder="Password" autocomplete="off" />
+                            </div>
+                        </div>
+
+                        <button type="submit" class="ui fluid large submit login button"> Login</button>
+                    </div>
+                <input type="hidden" name="_csrf" value="19f25c8a-f4cf-400c-be80-05660eb52e70" /></form>
+                <div class="ui">
+                    <a href="/forgotpw">Forgotten your password?</a>
+                    <span>|</span>
+                    <a id="help" href="#" onclick="$('.ui.small.modal').modal('show'); return false;">Help</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- help information -->
+<div class="ui small modal">
+    <div class="header">
+        Looking for Help?
+        <div class="ui top right attached label" onclick="$('.ui.small.modal').modal('hide'); return false;">
+            <i class="icon close"></i>
+        </div>
+    </div>
+    <div class="content">
+        <div class="description">
+            Please contact the G6 Hospitalty Help Desk at <a style="color: #000" href="tel:469-737-3366">(469) 737-3366</a>.<br />
+            Current business hours are from 5:00 AM to 1:00 AM Central.
+        </div>
+    </div>
+</div>
+
+<div class="ui legal vertical footer segment">
+    <div class="ui middle aligned center aligned grid">
+        <p>&copy; G6 Hospitality LLC. All Rights Reserved.</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="/scripts/timeout.js">
+</script>
+</body>
+</html>

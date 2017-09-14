@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Aug 2017 15:44:24 GMT
+Server: nginx
+Public-Key-Pins-Report-Only: pin-sha256="jZomPEBSDXoipA9un78hKRIeN/+U4ZteRaiX8YpWfqc="; pin-sha256="axSbM6RQ+19oXxudaOTdwXJbSr6f7AahxbDHFy3p8s8="; pin-sha256="SE4qe2vdD9tAegPwO79rMnZyhHvqj3i5g1c2HkyGUNE="; pin-sha256="ylP0lMLMvBaiHn0ihLxHjzvlPVQNoyQ+rMiaj0da/Pw="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"
+Content-Type: text/html;charset=utf-8
+Vary: Accept-Encoding
+X-Okta-Request-Id: WaQ6WBgEJ09DjfzZhtrvCAAABuM
+P3P: CP="HONK"
+X-Rate-Limit-Limit: 40
+X-Rate-Limit-Remaining: 39
+X-Rate-Limit-Reset: 1503935074
+X-Okta-backend: op1-majorapp04a.aue1s.internal
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Strict-Transport-Security: max-age=315360000
+X-Robots-Tag: none
+Content-Encoding: gzip
+Set-Cookie: ADRUM_BTa="R:27|g:e924cb03-1cac-49ec-a185-ad599db4dc4a"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:27|i:10346|e:40"; Version=1; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: ADRUM_BTa="R:27|g:95e71bb1-4050-45de-b200-266cf5f0bc2c"; Version=1; Max-Age=30; Expires=Mon, 28-Aug-2017 15:44:54 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:27|i:4046"; Version=1; Max-Age=30; Expires=Mon, 28-Aug-2017 15:44:54 GMT; Path=/
+Set-Cookie: ADRUM_BT1="R:27|i:4046|e:46"; Version=1; Max-Age=30; Expires=Mon, 28-Aug-2017 15:44:54 GMT; Path=/
+Set-Cookie: JSESSIONID=09AEE85BCD6B9C228A085D44B67E7C69; Path=/
+Set-Cookie: t=default; Path=/
+Set-Cookie: sid=102mmjSbFDIS4q9Lgize8FmOw;Version=1;Path=/;Secure;HttpOnly
+Set-Cookie: proximity_fa5376aea5854bf52fa44afcbfcb867a="h8smXlAUNdWijQxDTU3BYb6lw8d17zRopRf2VEnZfJmpNpQTbst1G93m4TIOi6+zdzNUVhEn5i9qYPJBg0rb6mgeVIVrryN04/y4JTUaT86eQvK6FHoscyArJM74rZZpPJk2CrzJBJ7D5B/17TLwN9yJzgtYIIO7l6lEWRoOI9r37IiIFQQXcrpcNclPywSV"; Version=1; Max-Age=31536000; Expires=Tue, 28-Aug-2018 15:44:24 GMT; Path=/; Secure
+Set-Cookie: JSESSIONID=09AEE85BCD6B9C228A085D44B67E7C69; Path=/; Secure
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+

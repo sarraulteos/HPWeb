@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Date: Mon, 28 Aug 2017 15:55:29 GMT
+X-Frame-Options: SAMEORIGIN
+Cache-Control: no-cache
+Content-Length: 430
+G6SrvHttpHandler: Host 1 - D=76189
+Connection: close
+Content-Type: text/plain; charset=utf-8
+

@@ -1,0 +1,17 @@
+[t16]
+FileName1=t16.htm
+URL1=https://stg.g6row.com/login
+Total=4
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_16.xml
+FileName2=t16_grow_logo.png
+URL2=https://stg.g6row.com/images/grow_logo.png
+FileName3=t16_grow_background.jpg
+URL3=https://stg.g6row.com/images/grow_background.jpg
+FileName4=t16_favicon.html
+URL4=https://stg.g6row.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

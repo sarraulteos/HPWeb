@@ -1,0 +1,11 @@
+{
+  "applications" : [ {
+    "applicationName" : "GROW_PRICING",
+    "applicationUrl" : null,
+    "id" : 0
+  }, {
+    "applicationName" : "GROW_REVENUE",
+    "applicationUrl" : "https://motel6.stage.aboveproperty.com",
+    "id" : 1
+  } ]
+}

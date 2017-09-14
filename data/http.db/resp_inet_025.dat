@@ -1,0 +1,87 @@
+ body {
+    background-image: url('/images/grow_background.jpg');
+    background-size: 1420px 1055px;
+    background-repeat: no-repeat;
+    background-color: #096ab9;
+    background-position: center center;
+    background-attachment: fixed;
+ }
+ body > .grid {
+    height: 100%;
+ }
+
+.column {
+    max-width: 450px;
+}
+/* positions the grow6 image */
+.main.container {
+    margin-top: 6em;
+}
+
+.ui.segment {
+    box-shadow: none;
+    drop-shadow: none;
+    background: none;
+    border: none;
+}
+
+.ui.raised.form.segment {
+    background-color: #FFFFFF;
+}
+
+ .ui.footer.segment {
+    border-radius: 0;
+    margin-top: -50px;
+    clear: both;
+    width: 100%;
+    position: relative;
+ }
+
+
+.ui.form input.readonly {
+    background-color: #a0a0a0;
+}
+
+.ui.vertical.footer.segment { margin-top:-2em;}
+.pusher {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 100%;
+    min-height: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+}
+
+.ui.button.primary  {
+    background-color: #5C7F92;
+}
+.ui.button.primary:hover {
+    background-color: #6C8FA2;
+}
+
+
+.ui.login.button {
+ background-color: #12BD5E;
+ color: #FFF;
+}
+
+p {
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+img.logo {
+ width:300px;
+}
+
+span {
+ color: #FFF;
+}

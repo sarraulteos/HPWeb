@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.txt
+URL1=https://g6pricing-stg.g6hospitality.com/rest//dynatrace/dynaTraceMonitor?type=js&flavor=post&referer=https%3A%2F%2Fg6pricing-stg.g6hospitality.com%2F%23%2F&app=MyApp&format=lzw
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_loginConfig.html
+URL2=https://g6pricing-stg.g6hospitality.com/saml/loginConfig
+[ProtocolInfo]
+ProtocolId=QTWeb

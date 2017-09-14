@@ -1,0 +1,27 @@
+/*global $, interstitialMinWaitTime */
+$(function () {
+  var minWaitTime = typeof interstitialMinWaitTime == 'number' ? interstitialMinWaitTime : 1200;
+  var maxWaitTime = 3000;
+  function submitForm() {
+    $('#appForm').submit();
+  }
+
+  var $iframe = $('iframe[name=interstitial]');
+  // If the src is about:blank, ignore the logic to listen to the 'load' event, because it will never be fired.
+  if ($iframe.length && $iframe.attr('src') !== 'about:blank') {
+    var timeoutId = setTimeout(submitForm, maxWaitTime);
+    $iframe.one('load', function () {
+      clearTimeout(timeoutId);
+      setTimeout(submitForm, minWaitTime);
+    });
+  }
+  else {
+    if (_features && _features instanceof Array && $.inArray('AMAZON_ASSISTANT_FIX', _features) >= 0) {
+        //Submitting form asynchronously - see OKTA-114321
+        setTimeout(submitForm, 0);
+    } else {
+        submitForm();
+    }
+  }
+
+});

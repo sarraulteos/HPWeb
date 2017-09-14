@@ -1,0 +1,14 @@
+HTTP/1.0 200 OK
+Date: Mon, 28 Aug 2017 15:55:19 GMT
+Server: Apache/2
+X-Frame-Options: SAMEORIGIN
+Last-Modified: Thu, 10 Aug 2017 21:44:59 GMT
+ETag: "4478-5566d1bb7af00:dtagent70000000410030M7m"
+Accept-Ranges: bytes
+X-dynaTrace-JS-Agent: true
+X-dynaTrace: PT=102157;PA=-914354057;SP=RMO-TST;PS=1547518063
+Content-Length: 17917
+G6SrvHttpHandler: Host 2 - D=2083
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

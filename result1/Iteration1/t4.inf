@@ -1,0 +1,23 @@
+[t4]
+FileName2=t2_5_timeout.UNK
+FileName5=t2_2_semantic.css
+FileName4=t2_3_semantic.UNK
+FileName7=t2_0_growlogin.css
+FileName6=t2_1_jquery-3.UNK
+RequestBodyFile=t4_RequestBody.txt
+ContentType=text/html
+URL1=file:
+URL2=https://stg.g6row.com/scripts/timeout.js
+URL3=https://stg.g6row.com/images/grow_logo.png
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=https://stg.g6row.com/scripts/semantic.min.js
+URL5=https://stg.g6row.com/css/semantic.min.css
+URL6=https://stg.g6row.com/scripts/jquery-3.1.0.min.js
+URL7=https://stg.g6row.com/css/growlogin.css
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+Total=7
+StepName=Submit Data: login_2
+FileName1=t2.html
+FileName3=t2_4_grow_logo.png

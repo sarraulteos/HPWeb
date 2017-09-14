@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.htm
+URL1=https://g6hospitality.oktapreview.com/app/g6hospitality_g6crstest_1/exk4cl14tqvMDWWs30h7/sso/saml
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_favicon.ico
+URL2=https://g6hospitality.oktapreview.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

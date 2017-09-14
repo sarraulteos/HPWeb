@@ -1,0 +1,12 @@
+POST /rest//dynatrace/dynaTraceMonitor?type=js&flavor=post&referer=https%3A%2F%2Fg6pricing-stg.g6hospitality.com%2F%23%2F&app=MyApp&format=lzw HTTP/1.1
+Accept: */*
+Content-Type: application/octet-stream
+x-dtreferer: https://g6pricing-stg.g6hospitality.com/#/
+Referer: https://g6pricing-stg.g6hospitality.com/
+Accept-Language: en-US
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; Tablet PC 2.0)
+Host: g6pricing-stg.g6hospitality.com
+Content-Length: 676
+

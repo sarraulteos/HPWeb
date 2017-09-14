@@ -1,0 +1,277 @@
+ body {
+        background-color: white;
+        }
+        body > .grid {
+        height: 100%;
+        }
+
+        .main.container {
+            margin-top: 0em;
+        }
+
+        .ui.footer.segment {
+            border-radius: 0;
+            margin-top: -50px;
+            clear: both;
+            width: 100%;
+            position: relative;
+        }
+
+
+
+/* header menu bar */
+.ui.menu {
+    background-color: #fff;
+    border-radius:0px;
+    border: none;
+}
+
+.ui.menu img.logo {
+    max-width: 200px;
+    opacity: 0.95;
+    padding-top:0px;
+    padding-left:0px;
+}
+ .ui.menu .logo.item {
+    padding: 5px;
+ }
+
+.ui.menu .header.item {
+    padding-top: 18px;
+    padding-bottom: 0px;
+    padding-right: 8px;
+    padding-left:8px;
+    display: block;
+    float:left;
+    position: relative;
+    left:0px;
+    top:0px;
+}
+
+.ui.header.item a {
+    color: #f9fafb;
+}
+
+.ui.menu .item{ color: #005293; }
+.ui.menu .active.item{ color: #005293; }
+
+.ui.header.item.selected a {
+    color:#FFF;
+}
+
+.ui.header.active.item a {
+    color:#FFF;
+}
+
+
+.ui.grid>.dashboard.column:not(.row),.ui.grid>.row>.column{
+	position:relative;
+	display:inline-block;
+	width:33%;
+	padding-left:.5em;
+	padding-right:.5em;
+	vertical-align:top
+}
+
+.ui.grid {
+ margin-left: 0px;
+ margin-right: 0px;
+}
+
+.ui.form input.readonly {
+  background-color: #a0a0a0;
+}
+
+
+
+div.ui.header.item {
+    background-color: #131F48;
+}
+
+.ui .cards .card {
+    margin-left: .25em;
+    margin-right: .25em;
+    width: 100%;
+}
+
+div .ui.raised.segment.nopadding {
+    padding:0px;
+}
+
+.ui .card {
+    padding-top: .25em;
+    width: 100%;
+}
+
+.calendar-event {
+   border: none;
+   border-bottom: 1px dotted #000;
+}
+
+.calendar-event .list-date {
+    float: left;
+    width: 46px;
+    text-align: center;
+    display: inline;
+    background-color: #666;
+    padding: 3px;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.calendar-event .list-info {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.calendar-event .list-date .dayname {
+ background-color:#FFF;
+ padding: 3px;
+ text-transform: uppercase;
+ width: 100%;
+ text-align: center;
+ display: block;
+
+}
+
+.calendar-event .list-date .daynumber {
+ color: #FFF;
+}
+
+.calendar-event .entry-title.summary {
+ font-size: 14px;
+ margin-bottom: .25em;
+}
+
+.calendar-event .list-info .category {
+ margin-left: 55px;
+}
+
+/* no social media showing
+dashboard pages also have the top menu, so adjust the footer to display by offsetting it by -2em;
+*/
+.dashboard .ui.vertical.footer.segment { margin-top:-2em; }
+.ui.vertical.footer.segment { margin-top:0em; }
+
+
+.pusher {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 100%;
+    min-height: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+}
+
+.ui.button.primary  {
+ background-color: #5C7F92;
+}
+.ui.button.primary:hover {
+ background-color: #6C8FA2;
+}
+
+.ui.menu {
+ border-bottom-width: 0px;
+}
+
+.logo{
+ margin-top: 2em;
+}
+
+.header.logo {
+ margin-top: .5em;
+ height: 85px;
+ margin-left: 1em;
+ margin-bottem: .5em;
+}
+
+.legal{
+    color: #FFF;
+}
+
+.ui.segment {
+ box-shadow: none;
+ border-radius: none;
+ border: none;
+}
+
+.ui.form .message:first-child {
+  margin-top: .25em;
+}
+
+/* section headers */
+.ui.inverted.segment {
+ background-color: #5C7F92;
+}
+
+.ui.legal.segment {
+ background-color: #A6BCC6;
+}
+
+/*
+.ui.negative.message {
+ background-color: #9F3A38;
+ color: #FFF;
+ box-shadow: none;
+}
+
+.ui.submit.button.red {
+ background-color: #9F3A38;
+}
+*/
+
+.ui.login.button {
+ background-color: #12BD5E;
+ color: #FFF;
+}
+
+a {
+ color: #005293;
+}
+
+body.dashboard {
+ background-color: #DADADA;
+}
+.ui.dashboard {
+ padding-top: 1em;
+}
+.ui.basic.logout.button {
+ margin-right: 0.5em;
+ background-color: #FFF;
+ border-radius: 0.285714rem;
+}
+
+div h2 { color: #5C7F92; text-align: center;}
+div h4 { color: #5C7F92; }
+h3.subheader { color: #5C7F92; margin-top: 0px; text-align: center; }
+
+
+.ui.stackable.grid {
+    margin-bottom: 1em;
+}
+
+ .ui.modal>.header {
+     background-color: #5C7F92;
+     color: #FFFFFF;
+ }
+ .ui.fullscreen.modal>.close {
+     color: #FFFFFF;
+ }
+ .ui.modal>.close {
+     color: #FFFFFF;
+     top: .5rem;
+     right: .5rem;
+ }
+
+ section {
+     margin-bottom: 1em;
+ }
+
+.ui.search.dropdown { height: 1em; }
+.ui.center.aligned.segment.announcement { text-align: justify;  min-height: 240px;}
+
+.column.app:hover { background-color: #5C7F92; }
+ .ui.menu:last-child {
+     margin-bottom: 10px;
+ }

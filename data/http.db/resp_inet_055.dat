@@ -1,0 +1,446 @@
+#okta-auth-mask {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    opacity: .50;
+    filter: Alpha(Opacity=50); /* csslint allow: known-properties */
+}
+
+@media only screen
+and (orientation: portrait) {
+    .android-upgrade-img {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 20%;
+        background-size: 65%;
+        background-image: url("/assets/img/ui/gra_update-xxxhdpi.2b89dbff8e4d62c1c4627e822b1e9875.png");
+        background-repeat: no-repeat;
+        background-position: center 8%;
+        margin-top: 8%;
+        overflow: hidden; /*needed to fix white space issue when rotating from landscape to portrait*/
+    }
+    .android-upgrade-continue-button {
+        background-color:#FFFFFF;
+        -moz-border-radius:1px;
+        -webkit-border-radius:1px;
+        border-radius:1px;
+        border:1px solid #C2C3C3;
+        display:block;
+        cursor:pointer;
+        color:#5D5D5D;
+        font-family:Arial;
+        font-size:17px;
+        padding: 5%;
+        margin: 6% 4%;
+        text-decoration:none;
+        text-align: center;
+        border-radius: 3px;
+        position: relative;
+        bottom: 0;
+    }
+
+    .android-upgrade-body-wrapper {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    .android-upgrade-header {
+       margin: 30% 0 5% 0;
+    }
+
+    .android-upgrade-body {
+        font-weight: normal;
+        font-family: "proxima nova", Arial, Helvetica, sans-serif;
+        color: #5d5d5d;
+        text-align: center;
+        line-height: 1.4;
+        width: 100%;
+    }
+
+ }
+
+@media only screen
+and (orientation: landscape) {
+    .android-upgrade-img {
+        width: 100%;
+        height: 100%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 15%;
+        background-size: 35%;
+        background-image: url("/assets/img/ui/gra_update-xxxhdpi.2b89dbff8e4d62c1c4627e822b1e9875.png");
+        background-repeat: no-repeat;
+        background-position: center 5%;
+        margin-top: 5%;
+    }
+
+    .android-upgrade-continue-button {
+        background-color:#FFFFFF;
+        -moz-border-radius:1px;
+        -webkit-border-radius:1px;
+        border-radius:1px;
+        border:1px solid #C2C3C3;
+        display:block;
+        cursor:pointer;
+        color:#5D5D5D;
+        font-family:Arial;
+        font-size:17px;
+        padding: 5%;
+        margin: 6% 4%;
+        text-decoration:none;
+        text-align: center;
+        border-radius: 3px;
+    }
+
+    .android-upgrade-body-wrapper {
+        padding: 0 15%;
+        width: 45%;
+        margin: 5% auto;
+        display: block;
+    }
+    
+    .android-upgrade-body {
+        font-weight: normal;
+        font-family: "proxima nova", Arial, Helvetica, sans-serif;
+        color: #5d5d5d;
+        text-align: center;
+        line-height: 1.5;
+
+    }
+
+    .android-upgrade-button-bar {
+        height: 6%;
+        position: relative;
+        width: 60%;
+        margin: 10% 20% 0 20%;
+    }
+}
+
+.android-upgrade-header {
+    font-weight: normal;
+    font-family: "proxima nova", Arial, Helvetica, sans-serif;
+    color: #007DC1;
+    text-align: center;
+}
+
+.android #okta-auth-mask {
+    opacity: 1;
+    filter: Alpha(Opacity=100); /* csslint allow: known-properties */
+    background: #787878;
+}
+
+.okta-auth-mask-new-interstitial {
+    opacity: 1;
+    filter: Alpha(Opacity=100); /* csslint allow: known-properties */
+    background: #FFFFFF;
+}
+
+.new-interstitial #okta-auth-heading {
+    color: #007dc1;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Proxima Nova;
+    font-weight: normal;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#okta-auth-band {
+    position: fixed;
+    z-index: 10000;
+    top: 25%;
+    right: 0;
+    left: 0;
+    height: 25%;
+    background-color: #444444;
+    opacity: 0.95;
+    filter: Alpha(Opacity=95); /* csslint allow: known-properties */
+    animation: movedown 1000ms 500ms 1 normal ease-out forwards, fadein 500ms;
+    -moz-animation: movedown 1000ms 500ms 1 normal ease-out forwards, fadein 500ms;
+    -webkit-animation: movedown 1000ms 500ms 1 normal ease-out forwards, fadein 500ms;
+}
+
+#new-interstitial #okta-auth-band {
+    background-color: #FFFFFF;
+    height: 148px;
+    top: 40%;
+}
+
+.android #okta-auth-band {
+    opacity: 1;
+    filter: Alpha(Opacity=100); /* csslint allow: known-properties */
+    background-color: #474747;
+}
+
+.okta-logo {
+    bottom: 15px;
+    position: fixed;
+    right: 17px;
+    height: 21px;
+    width: 62px;
+}
+
+.new-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 71px;
+    width: 167px;
+    position: relative;
+}
+
+.new-img-static{
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -75px;
+    bottom: 0;
+    height: 71px;
+    width: 167px;
+    position: absolute;
+    z-index: 1;
+}
+
+#okta-auth-heading {
+    position: absolute;
+    top: 60%;
+    color: #ddd;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: normal;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#okta-auth-spin,
+#okta-auth-spin-small {
+    left: 50%;
+    position: absolute;
+    top: 40%;
+}
+
+#okta-auth-spin {
+    display: block;
+}
+
+.android #okta-auth-spin {
+    display: block;
+    height: 64px;
+    width: 64px;
+    margin: -32px 0 30px -32px;
+}
+
+#okta-auth-spin-small {
+    display: none;
+}
+
+.non-android .okta-auth-spinner {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 3000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(360deg);
+}
+
+div.okta-iframe-overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2147483647;
+    background-color: #fff;
+}
+
+div.okta-iframe-overlay iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#_xsrfToken {
+    display: none;
+}
+
+/*
+ * Media queries -- supported on FF, Chrome, Safari and IE9+
+ */
+
+@media screen and (max-width: 320px),
+screen and (max-device-width: 320px) {
+
+    #okta-auth-band {
+        height: 33%;
+    }
+
+    #okta-auth-heading {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
+    #okta-auth-spin {
+        display: none;
+    }
+
+    #okta-auth-spin-small {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 480px) and (min-width: 321px),
+screen and (max-device-width: 480px) and (min-device-width: 321px) {
+
+    #okta-auth-band {
+        height: 40%;
+    }
+
+    #okta-auth-heading {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    #okta-auth-spin {
+        display: none;
+    }
+
+    #okta-auth-spin-small {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 481px),
+screen and (max-device-width: 800px) and (min-device-width: 481px) {
+
+    #okta-auth-band {
+        height: 25%;
+    }
+
+    #okta-auth-heading {
+        font-size: 21px;
+    }
+
+    #okta-auth-spin {
+        display: none;
+    }
+
+    #okta-auth-spin-small {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 801px),
+screen and (max-device-width: 1024px) and (min-device-width: 801px) {   
+
+    #okta-auth-heading {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+
+}
+
+@media screen and (min-width: 412px) and (max-width: 732px) and (orientation : portrait){
+
+    .android-upgrade-continue-button {
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (min-width: 480px) and  (orientation : portrait){
+    
+    #container {
+        margin-top: 0;
+    }
+
+    .android-upgrade-body-wrapper {
+        width: 85%;
+
+    }
+}
+
+
+/*tablet layouts portrait*/
+@media only screen and (min-width: 750px) and (max-width: 1280px) and (orientation : portrait){
+    
+    #container {
+        margin-top: 20%;
+    }
+    
+    .android-upgrade-img {
+        background-size: 40%;
+    }
+
+    .android-upgrade-body-wrapper {
+        width: 50%;
+        display: block;
+        margin: 5% auto;
+    }
+
+    .android-upgrade-continue-button {
+        width: 50%;
+        padding: 2%;
+        margin: 10% auto;
+    }
+}
+
+/*tablet layouts landscape*/
+@media only screen and (min-width: 750px) and (max-width: 1280px) and (orientation : landscape){
+    
+    .android-upgrade-button-bar {
+        margin: 5% 20% 0 20%;
+    }
+
+    .android-upgrade-continue-button{
+        padding: 3%;
+    }
+}
+
+/*
+ * Animations -- supported on FF, Chrome, Safari and IE10+
+ */
+
+/* Rotate spinner */
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+
+@keyframes spin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+/*
+ *CSS Helpers
+ */
+.margin-top-10{
+    margin-top: 10px;
+}
